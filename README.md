@@ -68,7 +68,7 @@ In command line terminal run python
 
 import tensorflow as tf
 
-tf.__version__
+tf.____version____
 
 tf.test.is_gpu_available() --- If GPU is available it should show TRUE.
 
@@ -76,7 +76,7 @@ To check whether training is running on GPU run nvidia-smi
 
 Once you run it you will get the details and you can see the GPU memory consumption
 
-**FOLLOW THE LISTED STEPS FOR TRAINING A MODEL FOR YOUR CUSTOM DATASET USING TENSORFLOW2.4
+**FOLLOW THE LISTED STEPS FOR TRAINING A MODEL FOR YOUR CUSTOM DATASET USING TENSORFLOW2.4**
 
 Goto TF2 model inside that goto object detection directroy.
 
@@ -106,12 +106,14 @@ tensorboard --logdir=training
 
 ***DESCRIPTION***
 
-GOAL:
+**GOAL**:
 Drug Quality Detection at dispatching unit of Drug Manufacturing company to avoid dispatching false quality or badly sealed medicines which might turn out as poison due to bad sealing exposing to air or any pollution or etc.
 
-Approach: Using Deep Learning (Neural Networks) and Computer vision technology for detection of such quality check.
+**Approach**: 
+Using Deep Learning (Neural Networks) and Computer vision technology for detection of such quality check.
 
-Datasets: Collected from iPhone with a frame rate of 30fps and collected video data for different variants of drug/ medicine and each video for around 20 seconds. In total there were 10 videos. Then the video data were converted into frames as said before we get 30fps( frame per second ) and we have just considered 4 to 5 frames per second out of 30fps. Once the data was ready I have split the data into train and test where training images were 488 and test images were 122. I used labelImg tool to annotate the images and I have considered 4 classes namely Tablet_Presence, Tablet_Absence, Good_Sealing, Bad_Sealing. This annotation took around 5 hours and the work done was saved in terms of .XML files.
+**Datasets**:
+Collected from iPhone with a frame rate of 30fps and collected video data for different variants of drug/ medicine and each video for around 20 seconds. In total there were 10 videos. Then the video data were converted into frames as said before we get 30fps( frame per second ) and we have just considered 4 to 5 frames per second out of 30fps. Once the data was ready I have split the data into train and test where training images were 488 and test images were 122. I used labelImg tool to annotate the images and I have considered 4 classes namely Tablet_Presence, Tablet_Absence, Good_Sealing, Bad_Sealing. This annotation took around 5 hours and the work done was saved in terms of .XML files.
 
 Stage 1 :Data Collection:
 
