@@ -1,4 +1,4 @@
-# drugQualityDetection
+# DrugQualityDetection
 
 To view the output open the .ipynb in Google Colab
 
@@ -6,7 +6,7 @@ To view the output open the .ipynb in Google Colab
 
 In the above Model Folder route to the below path provided,
 
-\TF2.zip\TF2\models-master\research\object_detection
+\TF2.zip\TF2\models-master\research\object_detection\
 
 In the above path you can find the required folders and files such as inference_graph_12k, images folder( in which you can find train,test data and its corresponding .csv files),train.record and test.record files,test_images_unseen, test_results, xml_to_csv.py, generate_tfrecord.py, model_main_tf2.py,exporter_main_v2.py,Object_detection_image.py.
 
@@ -65,15 +65,20 @@ https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/instal
 **How to check whether GPU is available(TRUE)**
 
 In command line terminal run python
+
 import tensorflow as tf
-tf.version
+
+tf.__version__
+
 tf.test.is_gpu_available() --- If GPU is available it should show TRUE.
+
 To check whether training is running on GPU run nvidia-smi
+
 Once you run it you will get the details and you can see the GPU memory consumption
 
 **FOLLOW THE LISTED STEPS FOR TRAINING A MODEL FOR YOUR CUSTOM DATASET USING TENSORFLOW2.4
 
-Goto tensorflow2 model inside that goto object detection directroy.
+Goto TF2 model inside that goto object detection directroy.
 
 create a image folder inside that split your dataset into train and test folder in the ratio of 70: 30 or 75:25 or 80:20 or 90:10
 
