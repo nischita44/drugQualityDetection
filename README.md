@@ -109,33 +109,33 @@ tensorboard --logdir=training
 **GOAL**:
 Drug Quality Detection at dispatching unit of Drug Manufacturing company to avoid dispatching false quality or badly sealed medicines which might turn out as poison due to bad sealing exposing to air or any pollution or etc.
 
-**Approach**: 
+**APPROACH**: 
 Using Deep Learning (Neural Networks) and Computer vision technology for detection of such quality check.
 
-**Datasets**:
+**DATASETS**:
 Collected from iPhone with a frame rate of 30fps and collected video data for different variants of drug/ medicine and each video for around 20 seconds. In total there were 10 videos. Then the video data were converted into frames as said before we get 30fps( frame per second ) and we have just considered 4 to 5 frames per second out of 30fps. Once the data was ready I have split the data into train and test where training images were 488 and test images were 122. I used labelImg tool to annotate the images and I have considered 4 classes namely Tablet_Presence, Tablet_Absence, Good_Sealing, Bad_Sealing. This annotation took around 5 hours and the work done was saved in terms of .XML files.
 
-Stage 1 :Data Collection:
+**Stage 1 :Data Collection**
 
 Collected from iPhone with a frame rate of 30fps and collected video data for different variants of drug/ medicine and each video for around 20 seconds. In total there were 10 videos.
 
-Stage 2: Data Preparation:
+**Stage 2: Data Preparation**
 
 Then the video data were converted into frames as said before we get 30fps( frame per second ) and we have just considered 4 to 5 frames per second out of 30fps.
 
 Once the data was ready I have split the data into train and test where training images were 488 and test images were 122 .
 
-Stage 3: Data Annotation:
+**Stage 3: Data Annotation**
 
 I used labelImg tool to annotate the images and I have considered 4 classes namely Tablet_Presence , Tablet_Absence, Good_Sealing, Bad_Sealing . This annotation took around 5 hours and the work done were saved in terms of .XML files .
 
-Stage 4: Preparing a training model:
+**Stage 4: Preparing a training model**
 
 Now that we have images and their corresponding.XML files and the tensorflow model accepts the input in terms of .tfrecords so to get that first we need to convert .xml files to .csv and once the conversion is done open the train.csv and test.csv files to proof read if there is any wrong naming of classes are there apart from defined classes .
 
 Post that run the genrate_tfrecord.py file to generate train.record and test.record files.
 
-Stage 5: Training
+**Stage 5: Training**
 
 Tensorflow is the framework used and 2.4 is the version .
 
