@@ -45,9 +45,7 @@ follow the mentioned link for tensorflow 2 Api Installation
 
 https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
 
-#################################################################################################################################################################################################################
-
-How to check whether GPU is available(TRUE)
+#################################################################################################################################################################################################################How to check whether GPU is available(TRUE)
 
 In command line terminal run python
 import tensorflow as tf
