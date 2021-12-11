@@ -2,9 +2,13 @@
 
 To view the output open the .ipynb in Google Colab
 
-**Access Complete Code: https://drive.google.com/file/d/10Ramhh92ZqX5gL_fFv4eD3t0K0zAXimJ/view?usp=sharing**
+**Access Complete Tensorflow 2.4 Model Folder : https://drive.google.com/file/d/10Ramhh92ZqX5gL_fFv4eD3t0K0zAXimJ/view?usp=sharing**
 
-https://github.com/tensorflow/models
+In the above Model Folder route to the below path provided,
+
+\TF2.zip\TF2\models-master\research\object_detection
+
+In the above path you can find the required folders and files such as inference_graph_12k, images folder( in which you can find train,test data and its corresponding .csv files),train.record and test.record files,test_images_unseen, test_results, xml_to_csv.py, generate_tfrecord.py, model_main_tf2.py,exporter_main_v2.py,Object_detection_image.py.
 
 Final Project: Drug Quality detection using Deep Learning(Neural Networks) and Computer Vision.
 
@@ -64,19 +68,19 @@ open the terminal from the object detection directory and convert xml to csv : p
 
 Generate tf record for train and test dataset using the below mentioned command.
 
-python generate_tfrecord.py --csv_input=images/train_labels.csv --image_dir=images/train --output_path=train.record
+python generate_tfrecord.py --csv_input=images/train.csv --image_dir=images/train --output_path=train.record
 
-python generate_tfrecord.py --csv_input=images/test_labels.csv --image_dir=images/test --output_path=test.record
+python generate_tfrecord.py --csv_input=images/test.csv --image_dir=images/test --output_path=test.record
 
 train the model:
 
 python model_main_tf2.py --pipeline_config_path=training/faster_rcnn_resnet152_v1_800x1333_coco17_gpu-8.config --model_dir=training --alsologtostderr
 
 **Evaluate your model**
-python model_main_tf2.py --model_dir=faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8 --pipeline_config_path=training_Barbican_Vimto/faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config --checkpoint_dir=training_Barbican_Vimto
+python Object_detection_image.py --model_dir=faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8 --pipeline_config_path=training/faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config --checkpoint_dir=training
 
 **Export the inference graph:**
-python exporter_main_v2.py --trained_checkpoint_dir=training --output_directory=inference_graph --pipeline_config_path=training_Barbican_Vimto/faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config
+python exporter_main_v2.py --trained_checkpoint_dir=training --output_directory=inference_graph_12k --pipeline_config_path=training/faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config
 
 tensorboard:
 tensorboard --logdir=training
