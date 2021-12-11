@@ -151,9 +151,9 @@ Tensorflow is the framework used and 2.4 is the version .
 ![Tablet1_204](https://user-images.githubusercontent.com/20515803/145671737-cd72cb36-3727-4cef-95fb-f9b3b5bd604d.jpg)
 ![Tablet2_544](https://user-images.githubusercontent.com/20515803/145671740-4b28bee0-356e-4c75-b9c3-0e20cf6fc8e0.jpg)
 ![Tablet2_1258](https://user-images.githubusercontent.com/20515803/145671744-fcfde1ce-c852-4ee6-b32b-8c4266eedd02.jpg)
-![Tablet3_1547](https://user-images.githubusercontent.com/20515803/145671748-1f6621b7-2f3a-4e04-9912-06e90f73b109.jpg)
 ![Tablet4_204](https://user-images.githubusercontent.com/20515803/145671752-bc1a0d3c-804e-4653-948c-fd7f129feaf2.jpg)
 ![Tablet4_340](https://user-images.githubusercontent.com/20515803/145671756-59b0e9ca-3cfc-4282-9cf3-3dd7c0641ba5.jpg)
 ![Tablet4_1224](https://user-images.githubusercontent.com/20515803/145671758-bbc55ebd-651e-479b-8ce8-edc515baf887.jpg)
+![Tablet3_187](https://user-images.githubusercontent.com/20515803/145671810-1d263149-2c71-4901-a121-4697aa5b7b1a.jpg)
 
 
