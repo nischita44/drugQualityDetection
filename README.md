@@ -1,5 +1,7 @@
 # drugQualityDetection
 
+To view the output open the .ipynb in Google Colab
+
 Access Complete Code: https://drive.google.com/file/d/10Ramhh92ZqX5gL_fFv4eD3t0K0zAXimJ/view?usp=sharing
 
 https://github.com/tensorflow/models
