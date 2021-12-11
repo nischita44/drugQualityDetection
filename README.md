@@ -82,7 +82,7 @@ tensorboard:
 tensorboard --logdir=training
 
 
-**DESCRIPTION
+***DESCRIPTION***
 
 GOAL:
 Drug Quality Detection at dispatching unit of Drug Manufacturing company to avoid dispatching false quality or badly sealed medicines which might turn out as poison due to bad sealing exposing to air or any pollution or etc.
