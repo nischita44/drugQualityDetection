@@ -12,7 +12,7 @@ Installation:
 
 Tensorflow 2:
 
-#Cuda installation:
+***Cuda installation:***
 Ubuntu 18.04 (CUDA 11.0)
 
 Add NVIDIA package repositories
@@ -72,10 +72,10 @@ train the model:
 
 python model_main_tf2.py --pipeline_config_path=training/faster_rcnn_resnet152_v1_800x1333_coco17_gpu-8.config --model_dir=training --alsologtostderr
 
-Evaluate your model:
+**Evaluate your model**
 python model_main_tf2.py --model_dir=faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8 --pipeline_config_path=training_Barbican_Vimto/faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config --checkpoint_dir=training_Barbican_Vimto
 
-Export the inference graph:
+**Export the inference graph:**
 python exporter_main_v2.py --trained_checkpoint_dir=training --output_directory=inference_graph --pipeline_config_path=training_Barbican_Vimto/faster_rcnn_inception_resnet_v2_1024x1024_coco17_tpu-8.config
 
 tensorboard:
