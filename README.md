@@ -139,3 +139,21 @@ Post that run the genrate_tfrecord.py file to generate train.record and test.rec
 
 Tensorflow is the framework used and 2.4 is the version .
 
+**Stage 6: Test Results**
+
+![Tablet1_748](https://user-images.githubusercontent.com/20515803/145671713-890436cd-cb90-472a-b607-6ba7b7c9b904.jpg)
+![Ointment1_102](https://user-images.githubusercontent.com/20515803/145671720-60f2a0c7-1722-4bc6-b58e-ece1b352c07a.jpg)
+![Ointment2_697](https://user-images.githubusercontent.com/20515803/145671722-b16fc2dc-f653-4441-a28d-100eb7b05164.jpg)
+![Spray1_51](https://user-images.githubusercontent.com/20515803/145671725-cf8f4744-4fcd-45dc-ba05-935f81d999e2.jpg)
+![Spray2_408](https://user-images.githubusercontent.com/20515803/145671729-e472b992-8643-4201-81ff-46a730da426c.jpg)
+![Syrup1_102](https://user-images.githubusercontent.com/20515803/145671732-e8ae7fea-11cb-4347-a208-640c6772dc85.jpg)
+![Syrup2_153](https://user-images.githubusercontent.com/20515803/145671733-11dd4a6f-d739-4c17-8f42-fc944b59794b.jpg)
+![Tablet1_204](https://user-images.githubusercontent.com/20515803/145671737-cd72cb36-3727-4cef-95fb-f9b3b5bd604d.jpg)
+![Tablet2_544](https://user-images.githubusercontent.com/20515803/145671740-4b28bee0-356e-4c75-b9c3-0e20cf6fc8e0.jpg)
+![Tablet2_1258](https://user-images.githubusercontent.com/20515803/145671744-fcfde1ce-c852-4ee6-b32b-8c4266eedd02.jpg)
+![Tablet3_1547](https://user-images.githubusercontent.com/20515803/145671748-1f6621b7-2f3a-4e04-9912-06e90f73b109.jpg)
+![Tablet4_204](https://user-images.githubusercontent.com/20515803/145671752-bc1a0d3c-804e-4653-948c-fd7f129feaf2.jpg)
+![Tablet4_340](https://user-images.githubusercontent.com/20515803/145671756-59b0e9ca-3cfc-4282-9cf3-3dd7c0641ba5.jpg)
+![Tablet4_1224](https://user-images.githubusercontent.com/20515803/145671758-bbc55ebd-651e-479b-8ce8-edc515baf887.jpg)
+
+
