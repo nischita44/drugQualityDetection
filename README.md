@@ -2,7 +2,7 @@
 
 To run the training and inferencing in Google Colab please refer Drug_Quality_Detection.ipynb file provided in this repository.
 
-For complete explaination of this project refer my YouTube Link: 
+**For complete explanation of this project refer my YouTube Link** 
 https://www.youtube.com/watch?v=Q_qWCwX_kMg
 
 **Access Complete Tensorflow 2.4 Model Folder : https://drive.google.com/file/d/10Ramhh92ZqX5gL_fFv4eD3t0K0zAXimJ/view?usp=sharing**
