@@ -28,7 +28,7 @@ sudo apt-get install --no-install-recommends nvidia-driver-450
 Reboot. Check that GPUs are visible using the command: nvidia-smi
 wget https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64/libnvinfer7_7.1.3-1+cuda11.0_amd64.deb sudo apt install ./libnvinfer7_7.1.3-1+cuda11.0_amd64.deb sudo apt-get update
 
-#Install development and runtime libraries (~4GB)
+**Install development and runtime libraries (~4GB)**
 sudo apt-get install --no-install-recommends
 cuda-11-0
 libcudnn8=8.0.4.30-1+cuda11.0
@@ -45,7 +45,7 @@ follow the mentioned link for tensorflow 2 Api Installation
 
 https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
 
-#How to check whether GPU is available(TRUE)
+**How to check whether GPU is available(TRUE)**
 
 In command line terminal run python
 import tensorflow as tf
@@ -54,7 +54,7 @@ tf.test.is_gpu_available() --- If GPU is available it should show TRUE.
 To check whether training is running on GPU run nvidia-smi
 Once you run it you will get the details and you can see the GPU memory consumption
 
-F#OLLOW THE LISTED STEPS FOR TRAINING A MODEL FOR YOUR CUSTOM DATASET USING TENSORFLOW2.4
+**FOLLOW THE LISTED STEPS FOR TRAINING A MODEL FOR YOUR CUSTOM DATASET USING TENSORFLOW2.4
 
 Goto tensorflow2 model inside that goto object detection directroy.
 
@@ -82,7 +82,7 @@ tensorboard:
 tensorboard --logdir=training
 
 
-#DESCRIPTION
+**DESCRIPTION
 
 GOAL:
 Drug Quality Detection at dispatching unit of Drug Manufacturing company to avoid dispatching false quality or badly sealed medicines which might turn out as poison due to bad sealing exposing to air or any pollution or etc.
