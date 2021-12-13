@@ -1,5 +1,11 @@
 # DrugQualityDetection
 
+Image classification involves predicting the class of one object in an image. Object localization refers to identifying the location of one or more objects in an image and drawing abounding box around their extent. Object detection combines these two tasks and localizes and classifies one or more objects in an image.
+
+When a user or practitioner refers to “object recognition“, they often mean “object detection“.
+
+… we will be using the term object recognition broadly to encompass both image classification (a task requiring an algorithm to determine what object classes are present in the image) as well as object detection (a task requiring an algorithm to localize all objects present in the image.
+
 To run the training and inferencing in Google Colab please refer Drug_Quality_Detection.ipynb file provided in this repository.
 
 **For complete explanation of this project refer my YouTube Link** 
